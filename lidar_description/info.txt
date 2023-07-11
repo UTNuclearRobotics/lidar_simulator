@@ -1,0 +1,2 @@
+roslaunch lidar_description test.launch gpu:=true
+killall gzserver and killall gzclient

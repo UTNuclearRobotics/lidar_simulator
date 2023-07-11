@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+  <model name="URSA">
+    <link name="plant">
+      <inertial>
+        <mass>2</mass>
+      </inertial>
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://URSA/meshes/URSA.stl</uri>
+            <!-- <uri>model://URSA/meshes/URSA.obj</uri> -->
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://URSA/meshes/URSA.stl</uri>
+            <!-- <uri>model://URSA/meshes/URSA.obj</uri> -->
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+    <static>1</static>
+    <self_collide>0</self_collide>
+    <kinematic>0</kinematic>
+  </model>
+</sdf>
